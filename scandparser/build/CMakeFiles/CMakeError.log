@@ -1,0 +1,59 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/amir/scandparser/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b83e4/fast && /usr/bin/make -f CMakeFiles/cmTC_b83e4.dir/build.make CMakeFiles/cmTC_b83e4.dir/build
+make[1]: Entering directory '/home/amir/scandparser/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b83e4.dir/src.c.o
+/home/amir/anaconda3/envs/scand-test/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b83e4.dir/src.c.o   -c /home/amir/scandparser/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b83e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b83e4.dir/link.txt --verbose=1
+/home/amir/anaconda3/envs/scand-test/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_b83e4.dir/src.c.o  -o cmTC_b83e4 
+/home/amir/anaconda3/envs/scand-test/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_b83e4.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pthread_create'
+/home/amir/anaconda3/envs/scand-test/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+/home/amir/anaconda3/envs/scand-test/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x4c): undefined reference to `pthread_join'
+/home/amir/anaconda3/envs/scand-test/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x60): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b83e4.dir/build.make:87: cmTC_b83e4] Error 1
+make[1]: Leaving directory '/home/amir/scandparser/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b83e4/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/scandparser/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18700/fast && /usr/bin/make -f CMakeFiles/cmTC_18700.dir/build.make CMakeFiles/cmTC_18700.dir/build
+make[1]: Entering directory '/home/amir/scandparser/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18700.dir/CheckFunctionExists.c.o
+/home/amir/anaconda3/envs/scand-test/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_18700.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_18700
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18700.dir/link.txt --verbose=1
+/home/amir/anaconda3/envs/scand-test/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_18700.dir/CheckFunctionExists.c.o  -o cmTC_18700  -lpthreads 
+/home/amir/anaconda3/envs/scand-test/bin/../lib/gcc/x86_64-conda-linux-gnu/9.5.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot find -lpthreads: No such file or directory
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_18700.dir/build.make:87: cmTC_18700] Error 1
+make[1]: Leaving directory '/home/amir/scandparser/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_18700/fast] Error 2
+
+
+

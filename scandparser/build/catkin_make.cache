@@ -1,0 +1,2 @@
+scand-parser:spot_move_base
+-DCATKIN_DEVEL_PREFIX=/home/amir/scandparser/devel -DCMAKE_INSTALL_PREFIX=/home/amir/scandparser/install -G Unix Makefiles

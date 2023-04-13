@@ -1,0 +1,8 @@
+prefix=/home/amir/scandparser/install
+
+Name: scand-parser
+Description: Description of scand-parser
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
