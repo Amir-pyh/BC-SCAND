@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/home/amir/anaconda3/envs/scand-test/bin/cc")
+set(CMAKE_C_COMPILER "/home/amir/anaconda3/envs/scand/bin/cc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "9.5.0")
@@ -70,7 +70,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/amir/anaconda3/envs/scand-test/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include;/home/amir/anaconda3/envs/scand-test/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed;/home/amir/anaconda3/envs/scand-test/x86_64-conda-linux-gnu/sysroot/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/amir/anaconda3/envs/scand/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include;/home/amir/anaconda3/envs/scand/lib/gcc/x86_64-conda-linux-gnu/9.5.0/include-fixed;/home/amir/anaconda3/envs/scand/x86_64-conda-linux-gnu/sysroot/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/amir/anaconda3/envs/scand-test/lib/gcc/x86_64-conda-linux-gnu/9.5.0;/home/amir/anaconda3/envs/scand-test/lib/gcc;/home/amir/anaconda3/envs/scand-test/x86_64-conda-linux-gnu/lib;/home/amir/anaconda3/envs/scand-test/lib;/home/amir/anaconda3/envs/scand-test/x86_64-conda-linux-gnu/sysroot/lib;/home/amir/anaconda3/envs/scand-test/x86_64-conda-linux-gnu/sysroot/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/amir/anaconda3/envs/scand/lib/gcc/x86_64-conda-linux-gnu/9.5.0;/home/amir/anaconda3/envs/scand/lib/gcc;/home/amir/anaconda3/envs/scand/x86_64-conda-linux-gnu/lib;/home/amir/anaconda3/envs/scand/lib;/home/amir/anaconda3/envs/scand/x86_64-conda-linux-gnu/sysroot/lib;/home/amir/anaconda3/envs/scand/x86_64-conda-linux-gnu/sysroot/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

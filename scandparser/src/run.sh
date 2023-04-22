@@ -19,7 +19,7 @@ rosbag_dir=${1:-"/path/to/rosbag/directory"}
 save_dir=${2:-"/path/to/save/directory"}
 
 # Loop through all rosbag files in the directory
-for rosbag_file in "$rosbag_dir"/*.bag; do
+for rosbag_file in "$rosbag_dir"/*; do
   echo "Processing $rosbag_file..."
 
   # Run the roslaunch file with the current rosbag file and save path

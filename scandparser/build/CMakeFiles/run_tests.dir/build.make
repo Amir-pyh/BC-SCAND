@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amir/scandparser/src
+CMAKE_SOURCE_DIR = /home/amir/Desktop/BC-SCAND/scandparser/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amir/scandparser/build
+CMAKE_BINARY_DIR = /home/amir/Desktop/BC-SCAND/scandparser/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/amir/scandparser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/scandparser/src /home/amir/scandparser/src /home/amir/scandparser/build /home/amir/scandparser/build /home/amir/scandparser/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amir/Desktop/BC-SCAND/scandparser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/Desktop/BC-SCAND/scandparser/src /home/amir/Desktop/BC-SCAND/scandparser/src /home/amir/Desktop/BC-SCAND/scandparser/build /home/amir/Desktop/BC-SCAND/scandparser/build /home/amir/Desktop/BC-SCAND/scandparser/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

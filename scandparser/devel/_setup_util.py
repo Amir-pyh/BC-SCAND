@@ -1,4 +1,4 @@
-#!/home/amir/anaconda3/envs/scand-test/bin/python3
+#!/home/amir/anaconda3/envs/scand/bin/python3
 # -*- coding: utf-8 -*-
 
 # Software License Agreement (BSD License)
@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/amir/catkin_ws/devel;/home/amir/Desktop/BCSAN/devel;/opt/ros/noetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/amir/Desktop/BC-SCAND/scandparser/devel;/opt/ros/noetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

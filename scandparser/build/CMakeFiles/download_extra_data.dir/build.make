@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amir/scandparser/src
+CMAKE_SOURCE_DIR = /home/amir/Desktop/BC-SCAND/scandparser/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amir/scandparser/build
+CMAKE_BINARY_DIR = /home/amir/Desktop/BC-SCAND/scandparser/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/amir/scandparser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/scandparser/src /home/amir/scandparser/src /home/amir/scandparser/build /home/amir/scandparser/build /home/amir/scandparser/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amir/Desktop/BC-SCAND/scandparser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/Desktop/BC-SCAND/scandparser/src /home/amir/Desktop/BC-SCAND/scandparser/src /home/amir/Desktop/BC-SCAND/scandparser/build /home/amir/Desktop/BC-SCAND/scandparser/build /home/amir/Desktop/BC-SCAND/scandparser/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

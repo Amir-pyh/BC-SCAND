@@ -67,14 +67,14 @@ set(spot_move_base_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(spot_move_base_SOURCE_PREFIX /home/amir/scandparser/src/spot_move_base)
-  set(spot_move_base_DEVEL_PREFIX /home/amir/scandparser/devel)
+  set(spot_move_base_SOURCE_PREFIX /home/amir/Desktop/BC-SCAND/scandparser/src/spot_move_base)
+  set(spot_move_base_DEVEL_PREFIX /home/amir/Desktop/BC-SCAND/scandparser/devel)
   set(spot_move_base_INSTALL_PREFIX "")
   set(spot_move_base_PREFIX ${spot_move_base_DEVEL_PREFIX})
 else()
   set(spot_move_base_SOURCE_PREFIX "")
   set(spot_move_base_DEVEL_PREFIX "")
-  set(spot_move_base_INSTALL_PREFIX /home/amir/scandparser/install)
+  set(spot_move_base_INSTALL_PREFIX /home/amir/Desktop/BC-SCAND/scandparser/install)
   set(spot_move_base_PREFIX ${spot_move_base_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/amir/scandparser/install/lib;/home/amir/catkin_ws/devel/lib;/home/amir/Desktop/BCSAN/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/amir/Desktop/BC-SCAND/scandparser/install/lib;/home/amir/Desktop/BC-SCAND/scandparser/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

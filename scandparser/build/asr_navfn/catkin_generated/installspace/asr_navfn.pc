@@ -1,0 +1,8 @@
+prefix=/home/amir/Desktop/BC-SCAND/scandparser/install
+
+Name: asr_navfn
+Description: Description of asr_navfn
+Version: 1.13.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lnavfn
+Requires: nav_core roscpp pluginlib

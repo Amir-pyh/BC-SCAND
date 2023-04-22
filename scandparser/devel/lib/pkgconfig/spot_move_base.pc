@@ -1,4 +1,4 @@
-prefix=/home/amir/scandparser/devel
+prefix=/home/amir/Desktop/BC-SCAND/scandparser/devel
 
 Name: spot_move_base
 Description: Description of spot_move_base

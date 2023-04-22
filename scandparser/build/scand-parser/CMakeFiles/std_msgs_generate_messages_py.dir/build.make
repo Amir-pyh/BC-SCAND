@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amir/scandparser/src
+CMAKE_SOURCE_DIR = /home/amir/Desktop/BC-SCAND/scandparser/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amir/scandparser/build
+CMAKE_BINARY_DIR = /home/amir/Desktop/BC-SCAND/scandparser/build
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ scand-parser/CMakeFiles/std_msgs_generate_messages_py.dir/build: std_msgs_genera
 .PHONY : scand-parser/CMakeFiles/std_msgs_generate_messages_py.dir/build
 
 scand-parser/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	cd /home/amir/scandparser/build/scand-parser && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/amir/Desktop/BC-SCAND/scandparser/build/scand-parser && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : scand-parser/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 scand-parser/CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/amir/scandparser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/scandparser/src /home/amir/scandparser/src/scand-parser /home/amir/scandparser/build /home/amir/scandparser/build/scand-parser /home/amir/scandparser/build/scand-parser/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amir/Desktop/BC-SCAND/scandparser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/Desktop/BC-SCAND/scandparser/src /home/amir/Desktop/BC-SCAND/scandparser/src/scand-parser /home/amir/Desktop/BC-SCAND/scandparser/build /home/amir/Desktop/BC-SCAND/scandparser/build/scand-parser /home/amir/Desktop/BC-SCAND/scandparser/build/scand-parser/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scand-parser/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

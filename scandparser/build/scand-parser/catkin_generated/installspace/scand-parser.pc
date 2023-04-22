@@ -1,4 +1,4 @@
-prefix=/home/amir/scandparser/install
+prefix=/home/amir/Desktop/BC-SCAND/scandparser/install
 
 Name: scand-parser
 Description: Description of scand-parser

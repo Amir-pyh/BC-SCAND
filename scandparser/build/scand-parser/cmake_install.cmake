@@ -1,8 +1,8 @@
-# Install script for directory: /home/amir/scandparser/src/scand-parser
+# Install script for directory: /home/amir/Desktop/BC-SCAND/scandparser/src/scand-parser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amir/scandparser/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amir/Desktop/BC-SCAND/scandparser/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amir/scandparser/build/scand-parser/catkin_generated/installspace/scand-parser.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amir/Desktop/BC-SCAND/scandparser/build/scand-parser/catkin_generated/installspace/scand-parser.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scand-parser/cmake" TYPE FILE FILES
-    "/home/amir/scandparser/build/scand-parser/catkin_generated/installspace/scand-parserConfig.cmake"
-    "/home/amir/scandparser/build/scand-parser/catkin_generated/installspace/scand-parserConfig-version.cmake"
+    "/home/amir/Desktop/BC-SCAND/scandparser/build/scand-parser/catkin_generated/installspace/scand-parserConfig.cmake"
+    "/home/amir/Desktop/BC-SCAND/scandparser/build/scand-parser/catkin_generated/installspace/scand-parserConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scand-parser" TYPE FILE FILES "/home/amir/scandparser/src/scand-parser/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scand-parser" TYPE FILE FILES "/home/amir/Desktop/BC-SCAND/scandparser/src/scand-parser/package.xml")
 endif()
 

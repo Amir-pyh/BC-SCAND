@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amir/scandparser/src
+CMAKE_SOURCE_DIR = /home/amir/Desktop/BC-SCAND/scandparser/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amir/scandparser/build
+CMAKE_BINARY_DIR = /home/amir/Desktop/BC-SCAND/scandparser/build
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ spot_move_base/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build: geometr
 .PHONY : spot_move_base/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 
 spot_move_base/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	cd /home/amir/scandparser/build/spot_move_base && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/amir/Desktop/BC-SCAND/scandparser/build/spot_move_base && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : spot_move_base/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 spot_move_base/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/amir/scandparser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/scandparser/src /home/amir/scandparser/src/spot_move_base /home/amir/scandparser/build /home/amir/scandparser/build/spot_move_base /home/amir/scandparser/build/spot_move_base/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amir/Desktop/BC-SCAND/scandparser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/Desktop/BC-SCAND/scandparser/src /home/amir/Desktop/BC-SCAND/scandparser/src/spot_move_base /home/amir/Desktop/BC-SCAND/scandparser/build /home/amir/Desktop/BC-SCAND/scandparser/build/spot_move_base /home/amir/Desktop/BC-SCAND/scandparser/build/spot_move_base/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : spot_move_base/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 
